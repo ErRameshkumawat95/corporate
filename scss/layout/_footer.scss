@@ -1,0 +1,51 @@
+.footer {
+    font-weight: 400;
+
+
+    .footer-logo {
+        max-width: 260px;
+    }
+
+    p {
+        // color: $grey;
+        @include padding-block(20)
+    }
+
+    ul {
+
+        list-style-type: none;
+        @include padding(0);
+
+        li {
+
+            @include padding-position(bottom, 20)
+        }
+
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+    h5 {
+        color: $white;
+        @include padding-position(bottom, 20)
+    }
+
+    ion-icon {
+        @include padding(10);
+        @include margin-position(right, 10);
+        // background-color: $yellow-light;
+        color: $black;
+        border-radius: 10px;
+    }
+}
+
+.footer ion-icon {
+    padding: 10px;
+    margin-right: 25px;
+    background-color: $primary;
+    color: $white;
+    border-radius: 50%;
+    font-size: 32px;
+}

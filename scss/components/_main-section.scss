@@ -1,0 +1,104 @@
+.title-primary {
+    color: $primary;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 3rem;
+}
+
+.title-heading {
+    color: $secondary;
+    line-height: 3.5rem;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.title-sub-heading {
+    color: $secondary;
+    line-height: 3rem;
+    text-transform: capitalize;
+    font-size: 2.67rem;
+}
+
+.card {
+    border: none;
+    .card-body {
+        border: 0.5px solid #F5F5F5;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    h6 {
+        font-weight: 400;
+    }
+}
+
+.divider {
+    min-height: 62px;
+    padding: 0 0.5px;
+    background-color: $black;
+    margin-inline: 50px
+}
+
+.article-update-info {
+    max-width: 535px;
+
+    h4,
+    p {
+        color: $black;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+.article-update-section {
+    .container {
+        background-color: #f3f3f3;
+    }
+}
+
+.free-consultation-section {
+    border-radius: 0;
+    .card-img-overlay {
+        background-color: rgba(3, 19, 51, 0.7);
+    }
+
+    .free-consultation-section-info {
+        max-width: 655px;
+        p {
+            font-size: 2.625rem;
+            font-weight: 700;
+        }
+    }
+
+    .btn-primary {
+        border-radius: 0;
+    }
+}
+
+.project-services-section-info {
+    max-width: 580px;
+    li {
+        @include padding-position(bottom, 20);
+    }
+}
+
+.parent-container {
+    position: relative;  
+}
+
+.project-services-section-info-img {
+    position: absolute;
+}
+
+.project-services-section-img {
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    width: 215px;
+    height: 195px;
+}
+
+.gradient-overlay {
+    background: linear-gradient(1deg, #fd5c30 0.60%, rgba(0, 0, 0, 0)101.50%);
+}

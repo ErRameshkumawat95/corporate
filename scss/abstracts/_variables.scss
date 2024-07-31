@@ -1,0 +1,61 @@
+// Import font-family
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+// Colors Variables
+$primary: #F54C1E;
+$secondary: #031333;
+
+
+// Font Family Variables
+$manrope-font-family: 'Manrope', sans-serif;
+$open-sans-font-family: 'Open Sans', sans-serif;
+$poppins-font-family: 'Poppins', sans-serif;
+$lato-font-family: 'Lato', sans-serif;
+
+// The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
+// See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
+$min-contrast-ratio:   3.5 !default;
+
+
+// body font family
+
+
+$body-font-family: 'poppins' , sans-serif;
+$font-family-base: 'poppins';
+$body-color: #6c757d;
+$body-line-height: 1.5;
+
+// navbar - padding
+$navbar-nav-link-padding-x: 1.75rem;
+$navbar-padding-y: 24px;
+$navbar-light-color: #000;
+
+$card-img-overlay : #031333b3;
+
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1  {
+    line-height: 1.5;
+}
+
+
+// h1-h6 font size
+
+$h1-font-size: 3.62rem;   /// 57.92 px
+$h2-font-size: 3rem;      /// 48px
+$h3-font-size: 2.37rem;   /// 37.92 px
+$h4-font-size: 1.75rem;   /// 28px
+$h5-font-size: 1.25rem;   /// 20px 
+$h6-font-size: 1.125rem;  ///  18px 
+
+
+$headings-color: $secondary;
+
+/// card 
+
+$card-spacer-y: 1.625rem;
+$card-spacer-x: 1.625rem;
+$card-border-radius: 1rem;
+$card-title-spacer-y: 1rem;
+$card-title-color: $secondary;
+$card-inner-border-radius: 0;
+

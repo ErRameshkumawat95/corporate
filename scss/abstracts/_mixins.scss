@@ -1,0 +1,41 @@
+@mixin bd-radius($value) {
+    border-radius: $value + px;
+}
+
+@mixin box-shadow($top, $left, $blur, $color) {
+    box-shadow: $top, $left, $blur, $color;
+}
+
+@mixin margin-position($postion, $unit) {
+    margin-#{$postion} : $unit + px;
+}
+
+@mixin margin($value) {
+    margin: $value + px;
+}
+
+@mixin margin-block($value) {
+    margin-block: $value + px;
+}
+
+@mixin margin-inline($value) {
+    margin-inline: $value + px;
+}
+
+
+@mixin padding-position($postion, $unit) {
+    padding-#{$postion} : $unit + px;
+}
+
+@mixin padding($value) {
+    padding: $value + px;
+}
+
+@mixin padding-block($value) {
+    padding-block: $value + px;
+}
+
+@mixin padding-inline($value) {
+    padding-inline: $value + px;
+}
+
